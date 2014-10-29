@@ -31,7 +31,13 @@
     <?php } ?>
     <p>
       <pre>
-        <?php print_r($content); ?>
+        <?php 
+        	print_r($content); 
+        	print_r($profile);
+        	print_r($tweet);
+        	print_r($status);
+			//print_r($content);
+    	?>
       </pre>
     </p>
 
